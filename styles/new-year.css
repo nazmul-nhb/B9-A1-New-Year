@@ -1,13 +1,25 @@
 /* Font Family Section*/
 /* For Inter */
-. {
+.offer,
+.welcome-text {
     font-family: 'Inter', sans-serif;
 }
 
 /* For Merriweather */
-.banner {
+.banner,
+.welcome-title {
     font-family: 'Merriweather', serif;
 }
+
+
+/* Common Styles */
+.offer-motto,
+.offer-title {
+    color: #F00;
+
+}
+
+
 
 /* Banner Section */
 .banner {
@@ -24,6 +36,8 @@
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 16px;
     text-align: center;
+    width: 1320px;
+    height: 600px;
 
 }
 
@@ -44,4 +58,75 @@
     width: 632px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Styles for Offer Section */
+.offer {
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+}
+
+.offer-title {
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.offer-motto {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-item-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+}
+
+/* Welcome Styles */
+.welcome {
+    background-image: url('../images/background-images/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome-container {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+    width: 1320px;
+    height: 600px;
+}
+
+.welcome-title {
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    padding: 126px 552px 0 126px;
+}
+
+.welcome-text {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    padding-left: 126px;
+    padding-top: 24px;
+
+
 }
