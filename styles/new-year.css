@@ -1,24 +1,19 @@
 /* Font Family Section*/
-/* For Inter */
-.offer,
-.welcome-text {
-    font-family: 'Inter', sans-serif;
-}
 
 /* For Merriweather */
-.banner,
-.welcome-title {
+.font1 {
     font-family: 'Merriweather', serif;
 }
 
-
-/* Common Styles */
-.offer-motto,
-.offer-title {
-    color: #F00;
-
+/* For Inter */
+.font2 {
+    font-family: 'Inter', sans-serif;
 }
 
+/* Common Styles */
+.red {
+    color: #F00;
+}
 
 
 /* Banner Section */
@@ -125,8 +120,14 @@
     font-weight: 400;
     line-height: 30px;
     /* 166.667% */
-    padding-left: 126px;
-    padding-top: 24px;
+    padding: 0 500px 0 126px;
+}
 
-
+.welcome-btn {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 158px;
 }
