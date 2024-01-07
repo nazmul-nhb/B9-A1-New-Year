@@ -272,3 +272,17 @@
 .offer-wow {
     width: 400px;
 }
+
+/* Styles for Best Gifts */
+.best-gifts-imgs {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.best-gifts-pic {
+    padding-right: 24px;
+}
+.best-gifts-pic:hover{
+   opacity: 50%;
+}
+.best-gifts .best-gifts-title .best-gifts-motto .best-gifts-details
