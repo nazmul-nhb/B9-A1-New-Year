@@ -235,6 +235,40 @@
 
 /* Styles for Holiday Sales */
 
-.holiday-sales{
-    
+.holiday-sales {
+    width: 1320px;
+    height: 660px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.holiday-sales-imgs {
+    background-image: url('../images/background-images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 1320px;
+    height: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    /* display:flex; */
+}
+
+/* .holiday-sales img {
+    display: inline flex;
+} */
+
+.box-img {
+    width: 500px;
+    /* background: radial-gradient(49.96% 50% at 50% 50.23%, #000 0%, #FFF 100%); */
+    padding-left: 100px;
+    margin-bottom: -200px;
+}
+
+.offer-img {
+    width: 220px;
+    padding-bottom: 160px;
+}
+
+.offer-wow {
+    width: 400px;
 }
