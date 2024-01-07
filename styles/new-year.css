@@ -147,6 +147,8 @@
 
 .event-container {
     padding: 100px 386px 0 386px;
+    text-transform: capitalize;
+    width: 550px;
 }
 
 .event-title {
@@ -228,4 +230,11 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+
+/* Styles for Holiday Sales */
+
+.holiday-sales{
+    
 }
