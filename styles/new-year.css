@@ -131,3 +131,44 @@
     line-height: normal;
     padding-left: 158px;
 }
+
+/* Styles for Event Section */
+.event {
+    text-align: center;
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+
+}
+
+.event-container {
+    padding: 100px 386px 0 386px;
+}
+
+.event-title {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.join-event {
+    padding: 16px 32px;
+    justify-content: center;
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0px;
+    margin-top: 48px;
+}
