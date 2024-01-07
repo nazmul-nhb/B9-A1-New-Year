@@ -1,0 +1,47 @@
+/* Font Family Section*/
+/* For Inter */
+. {
+    font-family: 'Inter', sans-serif;
+}
+
+/* For Merriweather */
+.banner {
+    font-family: 'Merriweather', serif;
+}
+
+/* Banner Section */
+.banner {
+    background-image: url('../images/background-images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner-container {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    border-radius: 16px;
+    text-align: center;
+
+}
+
+.banner-title {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 177px;
+}
+
+.banner-content {
+    color: #FFF;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    width: 632px;
+    margin-left: auto;
+    margin-right: auto;
+}
