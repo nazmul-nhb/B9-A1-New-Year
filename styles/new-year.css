@@ -338,10 +338,6 @@ img.welcome-2024 {
     margin-top: 24px;
 }
 
-.best-gifts-pic {
-    padding: 12px;
-}
-
 .best-gifts-pic:hover {
     opacity: 50%;
     cursor: pointer;
