@@ -379,6 +379,8 @@ footer {
 
 footer a {
     color: #FFF;
+    text-decoration: none;
+
 }
 
 .address {
@@ -387,21 +389,26 @@ footer a {
     padding: 120px 0 50px;
 }
 
+.contacts img {
+    padding-right: 8px;
+    vertical-align: middle;
+}
+
 .social-media-links {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.social {
+    padding-right: 24px;
 }
 
 hr {
     border-top: 1px solid #ffffff26;
 }
 
-a {
-    text-decoration: none;
-}
+a {}
 
 .footer-end {
     display: flex;
