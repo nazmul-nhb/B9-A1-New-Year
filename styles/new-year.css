@@ -46,6 +46,10 @@
     /* 160% */
 }
 
+.custom-button-style:hover {
+    cursor: pointer;
+    color: #F00;
+}
 
 /* Banner Section */
 .banner {
@@ -91,6 +95,7 @@
     text-align: center;
     font-style: normal;
     line-height: normal;
+
 }
 
 .offer-title {
@@ -115,6 +120,8 @@
     margin-top: 48px;
 }
 
+/* .hny {padding-bottom:120px;} */
+
 /* Welcome Styles */
 .welcome {
     background-image: url('../images/background-images/Vectorrr.png');
@@ -124,6 +131,7 @@
     border-radius: 16px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 120px;
     display: flex;
 }
 
@@ -153,7 +161,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-    /* 166.667% */
     padding: 0 500px 0 126px;
 }
 
@@ -165,14 +172,17 @@ img.welcome-2024 {
 
 }
 
-.welcome-btn {
+.custom-button-style {
     color: #FFF;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    padding-left: 158px;
+    margin-left: 158px;
+    background: none;
+    border: none;
 }
+
 
 /* Styles for Event Section */
 .event {
@@ -213,10 +223,15 @@ img.welcome-2024 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    border: 0px;
+    border: 2px solid #F00;
     margin-top: 48px;
 }
 
+.join-event:hover {
+    color: #F00;
+    background: #FFF;
+    cursor: pointer;
+}
 
 /* Styles for New Offer */
 .new-offer {
@@ -224,8 +239,6 @@ img.welcome-2024 {
     align-items: center;
     justify-content: space-between;
     margin-top: 120px;
-    margin-left: auto;
-    margin-right: auto;
     padding-left: 70px;
     padding-right: 70px;
 }
@@ -255,13 +268,13 @@ img.welcome-2024 {
 
 
 /* Styles for Holiday Sales */
-
 .holiday-sales {
     width: 1320px;
     height: 660px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    margin-top: 120px;
 }
 
 .holiday-sales-imgs {
@@ -272,26 +285,38 @@ img.welcome-2024 {
     height: 660px;
     margin-left: auto;
     margin-right: auto;
-    /* display:flex; */
+    display: flex;
+    justify-content: space-between;
+
 }
 
-/* .holiday-sales img {
-    display: inline flex;
-} */
+.holiday-sales-imgs .holiday-sales-left {
+    position: relative;
+}
 
-.box-img {
+.holiday-sales-imgs .holiday-sales-left .box-img {
     width: 500px;
-    /* background: radial-gradient(49.96% 50% at 50% 50.23%, #000 0%, #FFF 100%); */
-    padding-left: 100px;
-    margin-bottom: -200px;
+    position: absolute;
+    top: 160px;
+    left: 40px;
 }
 
-.offer-img {
+.holiday-sales-imgs .holiday-sales-right {
+    margin-top: 27.5px;
+    position: relative;
+
+}
+
+.holiday-sales-imgs .holiday-sales-right .offer-img {
     width: 220px;
-    padding-bottom: 160px;
+    /* padding-bottom: 160px; */
+    position: absolute;
+    top: 130px;
+    right: 292px;
+
 }
 
-.offer-wow {
+.holiday-sales-imgs .holiday-sales-right .wow-img {
     width: 400px;
 }
 
@@ -308,17 +333,18 @@ img.welcome-2024 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 70px;
+    padding-left: 60px;
     padding-right: 60px;
-
+    margin-top: 24px;
 }
 
 .best-gifts-pic {
-    padding-right: 24px;
+    padding: 12px;
 }
 
 .best-gifts-pic:hover {
     opacity: 50%;
+    cursor: pointer;
 }
 
 /* Styles for Newsletter Section */
@@ -362,7 +388,9 @@ img.welcome-2024 {
     font-weight: 600;
     line-height: normal;
     text-transform: capitalize;
-
+    padding: 1px 0 3px 0;
+    margin-left: -4px;
+    margin-top: 1px;
 }
 
 /* Styles for Footer */
@@ -406,10 +434,14 @@ footer a {
 }
 
 hr {
-    border-top: 1px solid #ffffff26;
+    border-top: 1px solid rgba(255, 255, 255, 0.15) !important;
+    border-bottom: none;
+    /* height: 0.2px; */
 }
 
-a {}
+a {
+    text-decoration: none;
+}
 
 .footer-end {
     display: flex;
