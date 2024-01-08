@@ -374,11 +374,13 @@ footer {
     font-weight: 500;
     line-height: normal;
     padding-left: 140px;
-    padding-right:140px;
+    padding-right: 140px;
 }
+
 footer a {
-    color:#FFF;
+    color: #FFF;
 }
+
 .address {
     display: flex;
     justify-content: space-between;
@@ -386,19 +388,21 @@ footer a {
 }
 
 .social-media-links {
-    display:block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 hr {
     border-top: 1px solid #ffffff26;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .footer-end {
     display: flex;
     justify-content: space-between;
