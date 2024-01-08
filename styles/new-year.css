@@ -15,6 +15,37 @@
     color: #F00;
 }
 
+.new-offer-title,
+.best-gifts-title,
+.holiday-offer-title,
+.newsletter-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.new-offer-time,
+.best-gifts-motto,
+.holiday-offer-wow {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.new-offer-details,
+.holiday-offer-details,
+.best-gifts-details,
+.newsletter-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
 
 /* Banner Section */
 .banner {
@@ -93,6 +124,7 @@
     border-radius: 16px;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
 }
 
 .welcome-container {
@@ -110,7 +142,9 @@
     line-height: 88px;
     /* 137.5% */
     letter-spacing: 7.04px;
-    padding: 126px 552px 0 126px;
+    padding-left: 126px;
+    /* padding-top: 126px;
+     */
 }
 
 .welcome-text {
@@ -121,6 +155,14 @@
     line-height: 30px;
     /* 166.667% */
     padding: 0 500px 0 126px;
+}
+
+img.welcome-2024 {
+    margin-top: 64px;
+    margin-right: 136px;
+    width: 320px;
+    height: 465px;
+
 }
 
 .welcome-btn {
@@ -196,19 +238,6 @@
     width: 276px;
 }
 
-.new-offer-title {
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.new-offer-time {
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-}
 
 .new-offer-pic {
     border-radius: 50%;
@@ -216,14 +245,6 @@
     padding: 45px;
 }
 
-.new-offer-details {
-    color: rgba(7, 2, 17, 0.60);
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    /* 160% */
-}
 
 .new-offer-year {
     font-size: 48px;
@@ -240,6 +261,7 @@
     height: 660px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 .holiday-sales-imgs {
@@ -274,15 +296,111 @@
 }
 
 /* Styles for Best Gifts */
+.best-gifts {
+    margin-top: 400px;
+}
+
+.best-gifts-txt-container {
+    margin-left: 70px;
+}
+
 .best-gifts-imgs {
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 60px;
+
 }
 
 .best-gifts-pic {
     padding-right: 24px;
 }
-.best-gifts-pic:hover{
-   opacity: 50%;
+
+.best-gifts-pic:hover {
+    opacity: 50%;
 }
-.best-gifts .best-gifts-title .best-gifts-motto .best-gifts-details
+
+/* Styles for Newsletter Section */
+.newsletter-container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    margin-top: 120px;
+    margin-left: 70px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.newsletter-subscribe {}
+
+.subscribe-email {
+    width: 440px;
+    height: 72px;
+    border: none;
+    text-align: left;
+    padding-left: 30px;
+    border-radius: 50px 0 0 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subscribe-submit {
+    width: 210px;
+    height: 72px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    color: #FFF;
+    background: #F00;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+/* Styles for Footer */
+footer {
+    background: #070211;
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 140px;
+    padding-right:140px;
+}
+footer a {
+    color:#FFF;
+}
+.address {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0 50px;
+}
+
+.social-media-links {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+hr {
+    border-top: 1px solid #ffffff26;
+}
+a{
+    text-decoration: none;
+}
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 120px;
+}
