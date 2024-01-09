@@ -10,28 +10,29 @@
     font-family: 'Inter', sans-serif;
 }
 
-/* Common Styles */
+/* Common/Shared Styles */
 .red {
     color: #F00;
 }
 
 .new-offer-title,
 .best-gifts-title,
-.holiday-offer-title,
-.newsletter-title {
+.holiday-offer-title {
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    margin: 16px 0;
 }
 
 .new-offer-time,
 .best-gifts-motto,
-.holiday-offer-wow {
+.newsletter-title {
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    margin: 16px 0;
 }
 
 .new-offer-details,
@@ -42,8 +43,6 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
-    /* 160% */
 }
 
 .custom-button-style:hover {
@@ -53,7 +52,7 @@
 
 /* Banner Section */
 .banner {
-    background-image: url('../images/background-images/Banner\ Image.png');
+    background-image: url('../images/background-images/Banner Image.png');
     background-repeat: no-repeat;
     width: 1320px;
     height: 600px;
@@ -148,11 +147,8 @@
     font-style: normal;
     font-weight: 900;
     line-height: 88px;
-    /* 137.5% */
     letter-spacing: 7.04px;
     padding-left: 126px;
-    /* padding-top: 126px;
-     */
 }
 
 .welcome-text {
@@ -268,6 +264,15 @@ img.welcome-2024 {
 
 
 /* Styles for Holiday Sales */
+.holiday-offer-wow {
+    color: #070211;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 4px 0;
+}
+
 .holiday-sales {
     width: 1320px;
     height: 660px;
@@ -278,7 +283,7 @@ img.welcome-2024 {
 }
 
 .holiday-sales-imgs {
-    background-image: url('../images/background-images/Rectangle\ 2.png');
+    background-image: url('../images/background-images/Rectangle 2.png');
     background-repeat: no-repeat;
     background-position: bottom;
     width: 1320px;
@@ -309,7 +314,6 @@ img.welcome-2024 {
 
 .holiday-sales-imgs .holiday-sales-right .offer-img {
     width: 220px;
-    /* padding-bottom: 160px; */
     position: absolute;
     top: 130px;
     right: 292px;
@@ -355,7 +359,9 @@ img.welcome-2024 {
     padding-top: 80px;
 }
 
-.newsletter-subscribe {}
+.email-icon {
+    padding-bottom: 40px;
+}
 
 .subscribe-email {
     width: 440px;
@@ -414,6 +420,16 @@ footer a {
     padding: 120px 0 50px;
 }
 
+.address-text {
+    line-height: 100%;
+}
+
+/* .contacts {
+    line-height: 100%;
+} */
+.phone-number, .website{
+    margin-bottom:16px;
+}
 .contacts img {
     padding-right: 8px;
     vertical-align: middle;
